@@ -1,0 +1,100 @@
+*{
+    margin: 0;   
+}
+
+body{
+    height: 100vh;font-family: Arial, sans-serif;
+}
+.üstkısım{
+    background-color: rgb(0, 0, 0);height: 65px;color: white;
+    position: sticky;top: 0;
+}
+
+.üstkısımdüzen{
+    display: flex;
+    justify-content:space-between;align-items: center;
+    height: 100%; padding: 0 60px;
+}
+
+.Gezginlerinyeri{
+    color: rgb(43, 174, 255);font-size: 48px;
+}
+
+.menüliste{
+    display: flex;
+    list-style: none;column-gap: 30px;padding: 0;
+}
+
+.a:hover{
+    color: rgb(0, 136, 255);
+}
+
+.içeriközelleştirme{
+    background: url("pexels-pixabay-41951.jpg");padding: 120px;
+    height: 100vh;background-size: 100%;
+}
+
+.içerikbaşlık{
+    width: 600px;
+    
+}
+
+.hakkımdaözellik{
+    width: 500px;
+    background-color: rgb(154, 154, 154);padding: 20px;
+    margin: 25px;font-family: Arial, sans-serif;
+}
+
+.buton{
+    display: flex;column-gap: 20px;
+    padding: 10px 30px;border-radius: 6px;border: none;outline: none;
+    font-size: 20px;font-family: Arial, Helvetica, sans-serif;
+}
+.başlık{
+    font-family:Arial, sans-serif;color: rgb(101, 8, 8);
+}
+.form{
+    align-items: center;justify-content: center;
+    max-width: 400px;padding-top: 200px;
+    margin: 20px auto
+}
+
+.form1{
+    width: 500px;
+    background-color: rgb(185, 185, 185);padding: 20px;
+    margin: 25px;
+}
+.form2{
+    font-size: large;font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.form3{
+    padding: 6px 0;
+}
+.form4{
+    padding: 40px;
+}
+.form5{
+    color: rgb(255, 255, 255);padding: 9px 16px;font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(28, 127, 28);border: none;cursor: pointer;
+}
+
+.listeiçerik{
+    margin-left: 70px;
+}
+.liste{
+    list-style: none;padding: 0;display: flex;
+}
+.resim{
+    width: 320px;
+}
+.makalebaşlık{
+    font-family: Arial, Helvetica, sans-serif;font-size: medium;color: white;
+}
+.tümsayfa{
+    background-color: black;
+}
+
+.devbaşlık{
+    font-family: Arial, Helvetica, sans-serif;font-size: large;align-items: center;
+}
